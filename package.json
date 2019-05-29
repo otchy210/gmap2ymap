@@ -1,0 +1,19 @@
+{
+  "name": "gmap2ymap",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "gcloud app deploy --project gmap2ymap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otchy210/gmap2ymap.git"
+  },
+  "author": "id+git@otchy.net",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^1.17.0"
+  }
+}
